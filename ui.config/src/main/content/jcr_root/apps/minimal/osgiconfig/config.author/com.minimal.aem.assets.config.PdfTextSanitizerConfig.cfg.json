@@ -1,0 +1,20 @@
+{
+  "headerRegexes":[
+    "^ACME Quarterly Report$",
+    "^Internal Use Only$"
+  ],
+  "footerRegexes":[
+    "^ACME Corporation$",
+    "^Confidential$"
+  ],
+  "pageNumberRegexes":[
+    "^Page\\s+\\d+$",
+    "^Page\\s+\\d+\\s+of\\s+\\d+$",
+    "^\\d+\\s*/\\s*\\d+$"
+  ],
+  "footnoteRegexes":[
+    "^\\d+\\.\\s+.*$",
+    "^\\*\\s+.*$"
+  ],
+  "minRetainedRatio":0.20
+}

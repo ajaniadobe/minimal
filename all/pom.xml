@@ -51,6 +51,9 @@
                 <configuration>
                     <group>cloud.adobe-aem-xsc</group>
                     <packageType>container</packageType>
+                    <properties>
+                        <cloudManagerTarget>all</cloudManagerTarget>
+                    </properties>
                     <filters>
                         <filter>
                             <root>/apps/aem-core-email-components-packages</root>
