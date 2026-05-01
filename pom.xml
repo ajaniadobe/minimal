@@ -90,8 +90,8 @@
 									<version>[3.3.9,)</version>
 								</requireMavenVersion>
 								<requireJavaVersion>
-									<message>Maven must be executed with a Java 8 JRE or higher.</message>
-									<version>11</version>
+									<message>Maven must be executed with a Java 11 or higher.</message>
+									<version>[11,)</version>
 								</requireJavaVersion>
 							</rules>
 						</configuration>
